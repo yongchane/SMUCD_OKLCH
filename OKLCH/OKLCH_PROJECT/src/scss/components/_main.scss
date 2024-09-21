@@ -1,0 +1,21 @@
+.main-container {
+  .main-title {
+    display: flex;
+    font-size: 32px;
+    font-family: "Martian Mono", monospace;
+    .main-accent {
+      font-weight: 600;
+    }
+  }
+  .main-content {
+    margin-bottom: 264px;
+    @include content_font(40px);
+  }
+  .main-content-one {
+    @include content_font(50px);
+  }
+  .main-content-two {
+    @include content_font(32px);
+    margin-bottom: 120px;
+  }
+}

@@ -1,24 +1,30 @@
 .header-container {
-  display: flex; /* Add this line */
+  height: 104px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
   width: 100%;
-  height: 62px;
-  justify-content: center; /* This will center the .header-title-container horizontally */
-  margin-left: 230px;
-  margin-right: 230px;
+  justify-content: center;
   font-size: 20px;
-  font-weight: 400px;
+  font-weight: 400;
+  font-family: "Martian Mono", monospace;
+
   .header-title-container {
-    display: flex; /* Ensure this is set to flex to use flex properties inside */
-    gap: 1041px;
-    margin-top: 20px;
-    align-items: center; /* Optional: Center items vertically */
-    width: 100%; /* Optional: To ensure it takes full width and centers its content */
+    /* 반드시 설정 */
+    display: flex;
+    gap: 46%;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    height: 62px;
+    background: white;
 
     .header-main {
-      width: 65px;
-      margin-right: 40px;
+      padding-left: 11%;
       font-weight: 500;
+      font-size: 35px;
     }
+
     .header-title-list-container {
       display: flex;
 

@@ -1,0 +1,24 @@
+.text-container {
+  .text-sub-title {
+    color: #6b6b6b;
+    font-family: "Martian Mono", monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .text-title {
+    margin-top: 38px;
+    color: var(--Black-Color, #121212);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .text-line {
+    width: 1072px;
+    height: 1.5px;
+    background: #000;
+    margin-top: 32px;
+  }
+}

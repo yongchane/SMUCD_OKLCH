@@ -1,7 +1,14 @@
 @charset "UTF-8";
 
+@import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap");
+
+@import "./layout";
+@import "./components/menu";
+
 @import "./mixins/font";
 @import "./mixins/footercontent";
 
 @import "./components/header";
 @import "./components/footer";
+@import "./components/main";
+@import "./components/table";

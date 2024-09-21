@@ -11,3 +11,11 @@
   outline: none;
   width: $w;
 }
+
+@mixin content_font($t) {
+  margin-top: $t;
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 38px; /* 190% */
+}

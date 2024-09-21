@@ -1,0 +1,9 @@
+@mixin bt_content($w, $f: 15px) {
+  box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.3);
+  width: $w;
+  height: 30px;
+  font-size: $f;
+  text-align: center;
+  font-family: "Martian Mono", monospace;
+  line-height: 30px;
+}
