@@ -1,12 +1,18 @@
 .menu-container {
-  margin-left: 14%;
-  margin-right: 122px;
+  margin-left: 8%;
+  margin-right: 5%;
   margin-top: 130px;
   height: 100%;
   position: sticky;
   top: 104px;
   z-index: 20;
   background-color: #fff;
+
+  .sticky {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
 
   .menu-content {
     width: 246px;

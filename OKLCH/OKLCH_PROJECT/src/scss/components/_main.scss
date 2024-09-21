@@ -1,4 +1,5 @@
 .main-container {
+  width: 80%;
   .main-title {
     display: flex;
     font-size: 32px;
@@ -10,13 +11,17 @@
   .main-content {
     margin-bottom: 264px;
     @include content_font(40px);
+    width: 1072px;
   }
 
   .main-content-two {
     @include content_font(32px);
     margin-bottom: 120px;
+
+    width: 1072px;
   }
 }
 .main-content-one {
   @include content_font(50px);
+  width: 1072px;
 }

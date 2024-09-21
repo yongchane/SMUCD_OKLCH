@@ -4,11 +4,15 @@
   //   overflow: visible; // overflow 제거 또는 visible로 변경
 
   .layout-content {
+    width: 100%;
     display: flex;
     position: relative;
     // padding-left: 608px;
-    padding-right: 240px;
+
     min-height: 100vh;
     margin-bottom: 100px;
+    .layout-study-footer {
+      flex-direction: column;
+    }
   }
 }
