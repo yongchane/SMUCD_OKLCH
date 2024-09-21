@@ -11,11 +11,12 @@
     margin-bottom: 264px;
     @include content_font(40px);
   }
-  .main-content-one {
-    @include content_font(50px);
-  }
+
   .main-content-two {
     @include content_font(32px);
     margin-bottom: 120px;
   }
+}
+.main-content-one {
+  @include content_font(50px);
 }
