@@ -26,10 +26,7 @@ const Header = () => {
 
         {/* Navigation Links */}
         <div className="header-title-list-container">
-          <div
-            className="header-cardirect"
-            onClick={() => navigate("/cardirect")}
-          >
+          <div className="header-cardirect" onClick={() => navigate("/")}>
             OKLCH Generator Plugins
           </div>
         </div>

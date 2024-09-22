@@ -1,4 +1,6 @@
 .text-container {
+  width: 867.602px;
+
   .text-sub-title {
     color: #6b6b6b;
     font-family: "Martian Mono", monospace;
@@ -16,7 +18,7 @@
     line-height: normal;
   }
   .text-line {
-    width: 1072px;
+    width: 100%;
     height: 1.5px;
     background: #000;
     margin-top: 32px;

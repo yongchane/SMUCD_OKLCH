@@ -12,7 +12,7 @@
   .header-title-container {
     /* 반드시 설정 */
     display: flex;
-    gap: 54.5%;
+
     align-items: center;
     width: 100%;
     padding-top: 20px;
@@ -20,14 +20,18 @@
     background: rgba(255, 255, 255, 0.95);
 
     .header-main {
-      padding-left: 11%;
+      padding-left: 12%;
       font-weight: 500;
       font-size: 30px;
+      transition: padding-left 2s ease;
+      @media (max-width: 1295px) {
+        padding-left: 2%; /* 1280px 이하에서는 margin-left를 0으로 설정 */
+      }
     }
 
     .header-title-list-container {
       display: flex;
-
+      padding-left: 830px;
       .header-cardirect {
       }
     }

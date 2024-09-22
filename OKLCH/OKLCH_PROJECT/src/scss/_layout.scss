@@ -1,8 +1,9 @@
 .layout-container {
   min-height: 100vh;
-  max-width: 100%;
+  width: 100%;
   //   overflow: visible; // overflow 제거 또는 visible로 변경
   font-family: Pretendard;
+
   .layout-content {
     width: 100%;
     display: flex;
@@ -11,6 +12,10 @@
 
     min-height: 100vh;
     // margin-bottom: 100px;
+    @media (max-width: 1280px) {
+      max-width: 1280px;
+      width: 100%; /* 화면 크기에 맞게 유동적인 너비 설정 */
+    }
     .layout-study-footer {
       flex-direction: column;
     }
