@@ -8,10 +8,17 @@ const Header = () => {
 
   // Helper function to check if the path is active
   const isActive = (path) => location.pathname === path;
-
+  const isGuiPage = location.pathname === "/gui";
   return (
     <div className="header-container">
-      <div className="header-title-container">
+      <div
+        className="header-title-container"
+        style={{
+          background: isGuiPage
+            ? "rgba(217, 217, 217, 0.95)"
+            : "rgba(255, 255, 255, 0.95)",
+        }}
+      >
         {/* Logo Section */}
         <div className="header-main" onClick={() => navigate("/")}>
           logo

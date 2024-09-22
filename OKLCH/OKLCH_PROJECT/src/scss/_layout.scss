@@ -2,7 +2,7 @@
   min-height: 100vh;
   max-width: 100%;
   //   overflow: visible; // overflow 제거 또는 visible로 변경
-
+  font-family: Pretendard;
   .layout-content {
     width: 100%;
     display: flex;
@@ -10,7 +10,7 @@
     // padding-left: 608px;
 
     min-height: 100vh;
-    margin-bottom: 100px;
+    // margin-bottom: 100px;
     .layout-study-footer {
       flex-direction: column;
     }
