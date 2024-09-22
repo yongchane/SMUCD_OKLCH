@@ -38,7 +38,6 @@ const Layout = () => {
         <div className={`menu-container ${isSticky ? "sticky" : ""}`}>
           <Menu />
         </div>
-
         <Outlet />
       </div>
       {showPage && <OklchView ref={oklchRef} />}
