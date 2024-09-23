@@ -1,6 +1,8 @@
 .text-container {
-  width: 867.602px;
-
+  width: 1100px;
+  @media (max-width: 1450px) {
+    width: 90%;
+  }
   .text-sub-title {
     color: #6b6b6b;
     font-family: "Martian Mono", monospace;

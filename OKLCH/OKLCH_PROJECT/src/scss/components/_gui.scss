@@ -2,16 +2,23 @@
   background: #ececec;
   width: 100%;
   height: 100%;
-  padding-left: 15%;
+  padding-left: 5%;
   @media (max-width: 1430px) {
     padding-left: 0px;
   }
   .gui-content {
+    display: flex;
+    flex-direction: column;
+    // align-items: center; /* 수평 중앙 정렬 */
+    justify-content: center; /* 수직 중앙 정렬 */
     .gui-picture {
       display: flex;
       justify-content: center; /* SVG를 수평 중앙에 정렬 */
       align-items: center;
-      width: 867.602px; /* 필요에 따라 너비 설정 */
+      width: 1100px;
+      @media (max-width: 1450px) {
+        width: 90%;
+      }
       padding-top: 32px;
       padding-bottom: 20px;
       gap: 34px;
@@ -26,13 +33,13 @@
       font-weight: 500;
       line-height: 38px;
       margin-bottom: 120px;
+      width: 85%;
       .gui-detail-content-one {
         color: #000;
         font-size: 20px;
         font-weight: 500;
         line-height: 38px;
         margin-bottom: 120px;
-        width: 867.602px;
       }
       .gui-detail-content-two {
         display: flex;
@@ -41,7 +48,6 @@
         font-weight: 500;
         line-height: 38px;
         margin-top: 32px;
-        width: 867.602px;
 
         .gui-detail-picture {
           padding-right: 32px;
