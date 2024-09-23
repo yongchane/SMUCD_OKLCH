@@ -15,7 +15,7 @@ const Header = () => {
         className="header-title-container"
         style={{
           background: isGuiPage
-            ? "rgba(217, 217, 217, 0.95)"
+            ? "rgba(236,236,236, 0.95)"
             : "rgba(255, 255, 255, 0.95)",
         }}
       >

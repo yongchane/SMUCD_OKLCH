@@ -35,7 +35,7 @@ const Layout = () => {
   return (
     <div
       className="layout-container"
-      style={{ background: isGuiPage ? "#d9d9d9" : "rgba(255, 255, 255, 0)" }}
+      style={{ background: isGuiPage ? "#ECECEC" : "rgba(255, 255, 255, 0)" }}
     >
       <Header />
       <div className="layout-content">

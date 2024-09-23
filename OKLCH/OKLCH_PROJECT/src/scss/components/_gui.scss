@@ -1,5 +1,5 @@
 .gui-container {
-  background: #d9d9d9;
+  background: #ececec;
   width: 100%;
   height: 100%;
   padding-left: 15%;
@@ -8,6 +8,17 @@
   }
   .gui-content {
     .gui-picture {
+      display: flex;
+      justify-content: center; /* SVG를 수평 중앙에 정렬 */
+      align-items: center;
+      width: 867.602px; /* 필요에 따라 너비 설정 */
+      padding-top: 32px;
+      padding-bottom: 20px;
+      gap: 34px;
+    }
+    .gui-pictures {
+      padding-top: 32px;
+      padding-bottom: 20px;
     }
     .gui-detail-content {
       color: #000;
@@ -22,6 +33,19 @@
         line-height: 38px;
         margin-bottom: 120px;
         width: 867.602px;
+      }
+      .gui-detail-content-two {
+        display: flex;
+        color: #000;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 38px;
+        margin-top: 32px;
+        width: 867.602px;
+
+        .gui-detail-picture {
+          padding-right: 32px;
+        }
       }
     }
   }

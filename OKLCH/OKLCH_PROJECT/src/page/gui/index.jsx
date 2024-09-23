@@ -1,20 +1,33 @@
 import React from "react";
 import TextTable from "../../component/TextTable";
-
+import { ReactComponent as GuiOne } from "../../assets/GuiOne.svg";
+import { ReactComponent as GuiTwo } from "../../assets/GuiTwo.svg";
+import { ReactComponent as GuiTwos } from "../../assets/GuiTwos.svg";
+import { ReactComponent as GuiThree } from "../../assets/GuiThree.svg";
+import { ReactComponent as GuiThreee } from "../../assets/GuiThreee.svg";
+import { ReactComponent as GuiFour } from "../../assets/GuiFour.svg";
+import { ReactComponent as GuiFourBtn } from "../../assets/GuiFourBtn.svg";
+import { ReactComponent as ComponentBtn } from "../../assets/ComponentBtn.svg";
+import { ReactComponent as ComponentBtns } from "../../assets/ComponentBtns.svg";
 const Gui = () => {
   return (
     <div className="gui-container">
       <TextTable sub="GUI 1." title="Swatch step" />
       <div className="gui-content">
-        <div className="gui-picture">사진 필요</div>
+        <div className="gui-picture">
+          <GuiOne />
+        </div>
         <div className="gui-detail-content">
-          색상 팔레트의 색 단계를 설정해주는 기능을 하고 있습니다. 10, 5, 2, 1
-          단계의 색상 설정이 가능합니다.
+          색상 팔레트의 색 단계를 설정해주는 기능을 하고 있습니다. <br />
+          10, 5, 2, 1 단계의 색상 설정이 가능합니다.
         </div>
       </div>
       <TextTable sub="GUI 2." title="Color Picker (Hue) " />
       <div className="gui-content">
-        <div className="gui-picture">사진 필요</div>
+        <div className="gui-picture">
+          <GuiTwo />
+          <GuiTwos />
+        </div>
         <div className="gui-detail-content">
           <div className="gui-detail-content-one">
             Hue (색상) 을 선택할 수 있는 칼라 피커 스펙트럼입니다.
@@ -33,7 +46,11 @@ const Gui = () => {
       </div>
       <TextTable sub="GUI 3." title="Color Gamut (Lightness & Chroma)" />
       <div className="gui-content">
-        <div className="gui-picture"> 사진 필요</div>
+        <div className="gui-picture">
+          {" "}
+          <GuiThree />
+          <GuiThreee />
+        </div>
         <div className="gui-detail-content">
           <div className="gui-detail-content-one">
             Color Gamut 에서는 선택한 Hue 값의 Lightness 와 Chroma를 OKLCH 의
@@ -54,7 +71,10 @@ const Gui = () => {
       </div>
       <TextTable sub="GUI 4." title="Color Palettes" />
       <div className="gui-content">
-        <div className="gui-picture"> 사진 필요</div>
+        <div className="gui-pictures">
+          {" "}
+          <GuiFour />
+        </div>
         <div className="gui-detail-content">
           <div className="gui-detail-content-one">
             swatch steps 에서 설정한 색상 단계가 위에서 가장 먼저 보여지며,
@@ -62,7 +82,10 @@ const Gui = () => {
             팔레트를 선택하게 되면 색상 툴을 활용해서 팔레트를 설정할 수
             있습니다.
           </div>
-          <div className="gui-picture"> 사진 필요</div>
+          <div className="gui-pictures">
+            {" "}
+            <GuiFourBtn />
+          </div>
           <div className="gui-detail-content-one">
             선택한 팔레트의 음영 단계도 설정 가능하도록 하였습니다.
           </div>
@@ -70,12 +93,17 @@ const Gui = () => {
       </div>
       <TextTable sub="Component" title="Buttons" />
       <div className="gui-content">
-        <div className="gui-picture">사진 필요</div>
         <div className="gui-detail-content">
-          <div className="gui-detail-content-one">
+          <div className="gui-detail-content-two">
+            <div className="gui-detail-picture">
+              <ComponentBtn />
+            </div>
             create a palette 버튼을 누를시 새로운 팔레트를 생성해 줍니다.{" "}
           </div>
-          <div className="gui-detail-content-one">
+          <div className="gui-detail-content-two">
+            <div className="gui-detail-picture">
+              <ComponentBtns />
+            </div>
             SVG, CSS, SCSS, JSON 파일로 플러그인에서 생성한 팔레트를 추출할 수
             있습니다.{" "}
           </div>
