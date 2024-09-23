@@ -1,6 +1,9 @@
 .main-container {
   width: 80%;
-
+  padding-left: 15%;
+  @media (max-width: 1430px) {
+    padding-left: 0px;
+  }
   .main-title {
     display: flex;
     font-size: 32px;

@@ -3,7 +3,7 @@ import TextTable from "../../component/TextTable";
 
 const Studies = () => {
   return (
-    <div className="study-container">
+    <div className="main-container">
       <TextTable
         sub="Studies 1."
         title="인간의 시각적 인식에 더 적합한 밝기 제어"

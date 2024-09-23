@@ -12,7 +12,7 @@
   .header-title-container {
     /* 반드시 설정 */
     display: flex;
-
+    position: relative; /* 부모 요소에 relative 추가 */
     align-items: center;
     width: 100%;
     padding-top: 20px;
@@ -23,15 +23,20 @@
       padding-left: 12%;
       font-weight: 500;
       font-size: 30px;
-      transition: padding-left 2s ease;
-      @media (max-width: 1295px) {
-        padding-left: 2%; /* 1280px 이하에서는 margin-left를 0으로 설정 */
+
+      @media (max-width: 1600px) {
+        padding-left: 2%;
       }
     }
 
     .header-title-list-container {
+      position: absolute; /* 요소를 절대 위치로 설정 */
+      right: 0; /* 오른쪽 끝에 붙이기 */
+      padding-right: 10%;
       display: flex;
-      padding-left: 830px;
+      @media (max-width: 1280px) {
+        padding-right: 5%;
+      }
       .header-cardirect {
       }
     }

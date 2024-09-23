@@ -7,9 +7,8 @@
   top: 104px;
   z-index: 20;
   background: rgba(255, 255, 255, 0);
-  transition: margin-left 2s ease; /* 부드러운 전환 효과 */
 
-  @media (max-width: 1295px) {
+  @media (max-width: 1600px) {
     margin-left: 2%; /* 1280px 이하에서는 margin-left를 0으로 설정 */
   }
 
